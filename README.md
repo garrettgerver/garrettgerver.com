@@ -1,1 +1,1 @@
-garrettgerver.com (soon 🤞)
+custom domain (soon 🤞)
