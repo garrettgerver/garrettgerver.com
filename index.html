@@ -12,45 +12,63 @@
     <header class="header-main"></header>
 
     <body>
-        <div class="div-title">
-            <h1>root@garrettgerver.github.io:~$ tree</h1>
-        </div>
-        <div class="tree-div">
-            <div class="tree-item">
-                <button class="tree-header tree">About Me</button>
-                <div class="tree-content">
-                    <a class="tree">About_Me_(no_link)</a>
-                </div>
+        <div class="select">
+            <div class="div-title">
+                <h1>root@garrettgerver.me:~$ tree</h1>
             </div>
-            <div class="tree-item">
-                <button class="tree-header tree">Projects</button>
-                <div class="tree-content">
-                    <a class="tree" href="https://github.com/garrettgerver">Github</a>
-                    <div class="tree-item">
-                        <button class="tree-header tree">Hangr - "Pinterest-like" App</button>
-                        <div class="tree-content">
-                            <a class="tree">Github_Repo_(no_link)</a> <br>
-                            <a class="tree">About_(no_link)</a> <br>
+            <div class="tree-div">
+                <div class="tree-item">
+                    <button class="tree content-btn" data-target="about">About_Me</button>
+                </div>
+                <div class="tree-item">
+                    <button class="tree-header tree">Projects</button>
+                    <div class="tree-content">
+                        <a class="tree" href="https://github.com/garrettgerver">Github</a>
+                        <div class="tree-item">
+                            <button class="tree-header tree">Hangr - "Pinterest-like" App</button>
+                            <div class="tree-content">
+                                <a class="tree">Github_Repo_(no_link)</a> <br>
+                                <button class="tree content-btn" data-target="hangr-about">About</button> <br>
+                            </div>
                         </div>
-                    </div>
-                    <div class="tree-item">
-                        <button class="tree-header tree">Stock Sentiment Analysis</button>
-                        <div class="tree-content">
-                            <a class="tree" href="https://github.com/garrettgerver/stock-sentiment">Github_Repo</a> <br>
-                            <a class="tree">About_(no_link)</a> <br>
+                        <div class="tree-item">
+                            <button class="tree-header tree">Stock Sentiment Analysis</button>
+                            <div class="tree-content">
+                                <a class="tree" href="https://github.com/garrettgerver/stock-sentiment">Github_Repo</a> <br>
+                                <button class="tree content-btn" data-target="stock-sentiment-about">About</a> <br>
+                            </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
-            </div>
-            <div class="tree-item">
-                <button class="tree-header tree">Contact / Socials</button>
-                <div class="tree-content">
-                    <a class="tree" href="https://www.linkedin.com/in/garrett-gerver-9898312b0/">LinkedIn</a> <br>
-                    <a class="tree" href="https://uc.joinhandshake.com/profiles/r956mx">Handshake</a> <br>
-                    <a class="tree" href="./files/garrett_gerver_resume_spring.pdf" download>Resume Download</a> <br>
+                <div class="tree-item">
+                    <button class="tree-header tree">Contact / Socials</button>
+                    <div class="tree-content">
+                        <a class="tree" href="https://www.linkedin.com/in/garrett-gerver-9898312b0/">LinkedIn</a> <br>
+                        <a class="tree" href="https://uc.joinhandshake.com/profiles/r956mx">Handshake</a> <br>
+                        <a class="tree" href="./files/garrett_gerver_resume_fall.pdf" download>Resume Download</a> <br>
+                    </div>
                 </div>
+
             </div>
+        </div>
+        <div class="content">
+            <div id="about">
+                <h1>ABOUT_ME</h1>
+                <br>
+                <div id="about-container"></div>
+            </div>
+            <div id="hangr-about">
+                <h1>ABOUT_HANGR</h1>
+                <br>
+                <div id="hangr-about-container"></div>
+            </div>
+            <div id="stock-sentiment-about">
+                <h1>ABOUT_STOCK_SENTIMENT</h1>
+                <br>
+                <div id="stock-sentiment-about-container"></div>
+            </div>
+
 
         </div>
         <script src="./scripts/index.js"></script>        

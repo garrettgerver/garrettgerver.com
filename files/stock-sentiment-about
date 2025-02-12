@@ -1,0 +1,7 @@
+This is a little Python script that uses Beautiful Soup and Requests to parse Yahoo
+Finance articles about a stock and run the articles through a pretrained LLM model
+specialized in financial sentiment analysis to get a sentiment score per article. 
+This project, while fun to make, lacks a standardized sentiment score that makes
+any of the output meaningful, which I hope to get to in the future. Nevertheless,
+I believe this is a well-structured project that shows my comfort in the data-science
+field.

@@ -1,0 +1,6 @@
+Hangr is my most ambitious project yet. I plan for it to be an AI-recognition tool for clothes,
+taking an inputted image and applying a ML model on it to tell the user what clothes are worn
+in the picture and where they can buy them. Currently, this project consists of a NodeJS Express
+backend that sends an inputted image and stores it in a PostgreSQL database along with some
+metadata. I am currently learning the AWS suite to create a more-secure storage system using 
+S3 with the ability to push these images to Athena for processing.

@@ -1,2 +1,1 @@
-# [garrettgerver.github.io](garrettgerver.github.io)
-custom domain (soon 🤞)
+# [garrettgerver.me](https://garrettgerver.me)
