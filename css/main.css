@@ -45,7 +45,7 @@ body {
 
 .tree-header {
     all: unset;
-    display: block;
+    display: none;
     cursor: pointer;
     font-weight: bold;
     text-align: left;
@@ -54,6 +54,10 @@ body {
     padding-left: 20px;
     outline: none;
     color: #00ff44;
+}
+
+#about-me-btn {
+    display: none;
 }
 
 .tree-header:hover {
